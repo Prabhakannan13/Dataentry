@@ -15,7 +15,13 @@ export class AdddataComponent implements OnInit {
   moto=""
 
 readValues=()=>{
-  console.log("success")
+  let data={
+  "studentname":this.studentname,
+  "clubname":this.clubname,
+  "clubcolour":this.clubcolour,
+  "moto":this.moto
+  }
+  console.log(data)
 }
   ngOnInit(): void {
   }
